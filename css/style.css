@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* utilities */
@@ -16,7 +17,6 @@ h1 {
     display: inline-block;
     line-height: 50px;
     vertical-align: middle;
-    font-family: sans-serif;
     font-weight: 900;
 }
 
@@ -30,8 +30,10 @@ h1 {
     color: gray;
 }
 
-h3 {
+.list-title {
     display: inline;
+    font-size: 20px;
+    vertical-align: middle;
 }
 
 /*containers*/
@@ -51,13 +53,13 @@ h3 {
 
 .buttons-bar-container {
     margin-top: 30px;
-    margin-bottom: 1px;
+    margin-bottom: 2px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .todolist-container {
-    padding-left: 0px;
+    padding: 20px 20px;
 }
 
 /*header*/
@@ -79,4 +81,14 @@ h3 {
 
 ul {
     list-style-type: none;
+
+}
+
+summary {
+    font-size: 10px;
+    vertical-align: middle;
+}
+
+li {
+    margin: 20px 0px;
 }
