@@ -44,7 +44,7 @@ h1 {
     vertical-align: middle;
     text-align: center;
     margin: 0 10px;
-    vertical-align: middle;
+    margin-bottom: 2px;
 }
 
 .blue {
@@ -154,4 +154,5 @@ summary {
 
 li {
     margin: 20px 0px;
+    line-height: 25px;
 }
