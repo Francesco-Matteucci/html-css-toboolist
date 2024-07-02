@@ -22,10 +22,10 @@
     <!--toboolist-->
     <main>
         <!--buttons bar-->
-        <section class="buttons-bar-container">
+        <div class="buttons-bar-container">
             <button class="button addtask">Add Task</button>
             <button class="button section">Add Section</button>
-        </section>
+        </div>
 
         <!--to do list-->
         <section class="todolist-container">
@@ -34,7 +34,8 @@
                     <h3 class="list-title">New Task</h3>
                 </summary>
                 <ul class="task-title">
-                    <li>Quarterly Newsletter</li>
+                    <li>Quarterly Newsletter<div class="label blue"><span class="label-text">Editorial</span></div>
+                    </li>
                 </ul>
             </details>
             <details open class="today-task">
@@ -42,10 +43,15 @@
                     <h3 class="list-title">Today</h3>
                 </summary>
                 <ul class="task-title">
-                    <li>Recruiting blog post</li>
-                    <li>Mobile app launch</li>
-                    <li>Interview John H.</li>
-                    <li>Summit update to mobile storefronts</li>
+                    <li>Recruiting blog post<div class="label blue"><span class="label-text">Editorial</span></div>
+                    </li>
+                    <li>Mobile app launch<div class="label purple"><span class="label-text">Q1-goals</span></div>
+                    </li>
+                    <li>Interview John H.<div class="label water"><span class="label-text">Recruiting</span></div>
+                    </li>
+                    <li>Summit update to mobile storefronts<div class="label orange"><span
+                                class="label-text">Mobile</span></div>
+                    </li>
                 </ul>
             </details>
             <details open class="upcoming-task">
@@ -53,10 +59,17 @@
                     <h3 class="list-title">Upcoming</h3>
                 </summary>
                 <ul class="task-title">
-                    <li>Schedule Meeting with Alex <span class="label"></span></li>
-                    <li>Homepage refresh</li>
-                    <li>Onboard new Sales team members</li>
-                    <li>Review editorial character</li>
+                    <li>Schedule Meeting with Alex <div class="label water"><span class="label-text">Recruiting</span>
+                        </div>
+                    </li>
+                    <li>Homepage refresh<div class="label pink"><span class="label-text">Website</span></div>
+                    </li>
+                    <li>Onboard new Sales team members<div class="label green"><span class="label-text">Sales</span>
+                        </div>
+                    </li>
+                    <li>Review editorial character<div class="label orange"><span class="label-text">Editorial</span>
+                        </div>
+                    </li>
                 </ul>
             </details>
         </section>
