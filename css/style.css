@@ -20,7 +20,7 @@ h1 {
     font-weight: 900;
 }
 
-.task {
+.addtask {
     background-color: rgb(43, 124, 223);
     color: white;
 }
@@ -30,27 +30,34 @@ h1 {
     color: gray;
 }
 
+h3 {
+    display: inline;
+}
+
 /*containers*/
 
 .header-container,
 .buttons-bar-container,
 .todolist-container {
     background-color: white;
-    border: 1px solid black;
 }
 
 .buttons-bar-container,
 .todolist-container {
-    max-width: 1080px;
+    max-width: 900px;
     margin: 0 auto;
     padding-left: 20px;
 }
 
 .buttons-bar-container {
     margin-top: 30px;
-    margin-bottom: 2px;
+    margin-bottom: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.todolist-container {
+    padding-left: 0px;
 }
 
 /*header*/
@@ -66,4 +73,10 @@ h1 {
     border: 1px solid rgb(116, 116, 116);
     padding: 5px 15px;
     border-radius: 5px;
+}
+
+/*to do list*/
+
+ul {
+    list-style-type: none;
 }

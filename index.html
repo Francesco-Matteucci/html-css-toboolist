@@ -23,13 +23,42 @@
     <main>
         <!--buttons bar-->
         <section class="buttons-bar-container">
-            <button class="button task">Add Task</button>
+            <button class="button addtask">Add Task</button>
             <button class="button section">Add Section</button>
         </section>
 
         <!--to do list-->
         <section class="todolist-container">
-            xx
+            <details open class="new-task">
+                <summary>
+                    <h3>New Task</h3>
+                </summary>
+                <ul class="task-title">
+                    <li>Quarterly Newsletter</li>
+                </ul>
+            </details>
+            <details open class="today-task">
+                <summary>
+                    <h3>Today</h3>
+                </summary>
+                <ul class="task-title">
+                    <li>Recruiting blog post</li>
+                    <li>Mobile app launch</li>
+                    <li>Interview John H.</li>
+                    <li>Summit update to mobile storefronts</li>
+                </ul>
+            </details>
+            <details open class="upcoming-task">
+                <summary>
+                    <h3>Upcoming</h3>
+                </summary>
+                <ul class="task-title">
+                    <li>Schedule Meeting with Alex <span class="label"></span></li>
+                    <li>Homepage refresh</li>
+                    <li>Onboard new Sales team members</li>
+                    <li>Review editorial character</li>
+                </ul>
+            </details>
         </section>
     </main>
 </body>
