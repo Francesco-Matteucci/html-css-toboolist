@@ -7,3 +7,21 @@
 body {
     background-color: rgb(179, 179, 179);
 }
+
+.header-container,
+.buttons-bar-container,
+.todolist-container {
+    background-color: white;
+    border: 1px solid black;
+}
+
+.buttons-bar-container,
+.todolist-container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.buttons-bar-container {
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
