@@ -20,6 +20,16 @@ h1 {
     font-weight: 900;
 }
 
+.task {
+    background-color: rgb(43, 124, 223);
+    color: white;
+}
+
+.section {
+    background-color: rgb(255, 255, 255);
+    color: gray;
+}
+
 /*containers*/
 
 .header-container,
@@ -33,11 +43,14 @@ h1 {
 .todolist-container {
     max-width: 1080px;
     margin: 0 auto;
+    padding-left: 20px;
 }
 
 .buttons-bar-container {
     margin-top: 30px;
     margin-bottom: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 /*header*/
@@ -45,4 +58,12 @@ h1 {
 #logo {
     margin-left: 10px;
     vertical-align: middle;
+}
+
+/*bar container*/
+
+.button {
+    border: 1px solid rgb(116, 116, 116);
+    padding: 5px 15px;
+    border-radius: 5px;
 }
